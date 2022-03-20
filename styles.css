@@ -142,3 +142,23 @@ h1 {
     border: 1px solid #fff;
     margin: auto;
 }
+
+body {
+    position: relative;
+    min-height: 100vh;
+}
+
+main {
+    padding-bottom: 2.5rem;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    padding: 20px;
+    font-size: 10px;
+    width: 100%;
+    text-align: center;
+    background-color: #1F2937;
+    color: #fff;
+}
