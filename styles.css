@@ -106,3 +106,19 @@ h1 {
     border: 2px solid #3882F6;
     border-radius: 10px;
 }
+
+.quote {
+    background-color: #dedede;
+    margin-top: 50px;
+    padding: 50px 20%;
+}
+
+.quote-text {
+    font-style: italic;
+    color: #616060;
+}
+
+.signed {
+    font-weight: 700;
+    text-align: right;
+}
