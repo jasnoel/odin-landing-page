@@ -68,7 +68,7 @@ nav ul {
     border: none;
     color: #fff;
     border-radius: 4px;
-    padding: 5px 15px;
+    padding: 2px 10px;
 }
 
 h1 {
@@ -121,4 +121,24 @@ h1 {
 .signed {
     font-weight: 700;
     text-align: right;
+}
+
+.sign-up {
+    margin: 35px 10%;
+    padding: 20px 40px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.sign-up div p {
+    font-size: 12px;
+    color:rgb(189, 189, 189);
+    margin-right: 15px;
+}
+
+.sign-up button {
+    border: 1px solid #fff;
+    margin: auto;
 }
