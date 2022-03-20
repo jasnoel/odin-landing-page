@@ -7,9 +7,11 @@
 
 ul, ol {
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
-nav h2  {
+h2  {
     color: #F9FAF8;
     font-size: 24px;
 }
@@ -27,4 +29,80 @@ nav {
 nav ul {
     display: flex;
     gap: 20px;
+}
+
+.main-presentation {
+    padding: 15px 10%;
+    color: #a8a9aa;
+    font-size: 15px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-presentation {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+.main-presentation div {
+    display: flex;
+    flex-direction: column;
+    max-width: 340px;
+    text-align: left;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.main-presentation img {
+    width: 400px;
+    height: 150px;
+    margin: 15px;
+    background-color: #808080;
+}
+
+.btn-basic {
+    background-color: #3882F6;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    padding: 5px 15px;
+}
+
+h1 {
+    color: #F9FAF8;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.informations {
+    text-align: center;
+}
+
+.informations h3 {
+    margin: 20px 0;
+    font-weight: 700;
+}
+
+.informations ul {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.informations ul li p {
+    text-align: center;
+    font-size: 12px;
+    width: 75px;
+    color: #808080;
+} 
+
+.informations ul li img {
+    width: 75px;
+    height: 75px;
+    border: 2px solid #3882F6;
+    border-radius: 10px;
 }
