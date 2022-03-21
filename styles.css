@@ -126,6 +126,7 @@ h1 {
 .sign-up {
     margin: 35px 10%;
     padding: 20px 40px;
+    align-self: center;
     background-color: #3882F6;
     display: flex;
     justify-content: space-between;
@@ -140,15 +141,17 @@ h1 {
 
 .sign-up button {
     border: 1px solid #fff;
-    margin: auto;
 }
 
 body {
     position: relative;
+    align-items: center;
     min-height: 100vh;
 }
 
 main {
+    display: flex;
+    flex-direction: column;
     padding-bottom: 2.5rem;
 }
 
